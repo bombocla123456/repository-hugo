@@ -1,8 +1,20 @@
-let nbLikes = 0;
-const boutonLike = document.getElementById("mon-bouton-like");
-if (boutonLike) {
-boutonLike.addEventListener("click", () -> {
-nbLikes = nbLikes + 1;
-boutonLike.textContent = "❤ J'aime (" + nbLikes + ")";
-});
-}
+
+const selection_jours = document.getElementById("jours");
+selection_jours.addEventListener("change", function() {
+    const url=this.value ;
+    if (url !== "") {
+        window.location.href=url ;
+    }
+} );
+
+selection_jours.selectedIndex = 0;
+
+const selectione_jours = document.getElementById("jour");
+selectione_jours.addEventListener("change", function() {
+    const url_2=this.value ;
+    if (url_2 !== "") {
+        window.location.href=url ;
+    }
+} );
+
+selectione_jours.selectedIndex = 0;

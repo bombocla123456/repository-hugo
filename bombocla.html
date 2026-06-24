@@ -1,119 +1,169 @@
+<!DOCTYPE html>
 <html lang="fr">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mon Portfolio - Hugo</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Hugo</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            border: solid 1px white;
+            border-radius: 15px;
+            padding: 130px;
+            background-color: #1209b3;
+            font-family: Arial, sans-serif;
+        }
+
+        header h1,
+        header h2 {
+            color: #f1f5f9;
+        }
+
+        p {
+            color: white;
+            font-size: 24px;
+        }
+
+        .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: white;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .contenu {
+            margin-top: 80px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 390px;
+        }
+
+        .button {
+            margin-top: -8px;
+            margin-left: 470px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-<header>
-<h1> Ce que j'ai appris durant ce stage  !</h1>
 
-</header>
-<main>
-<section>
-<p>Durant mon stage à EPITECH, j'ai eu l'opportunité de découvrir de nombreux aspects du monde de l'informatique et des nouvelles technologies. Cette expérience m'a permis d'en apprendre davantage sur les différents métiers du numérique, les compétences nécessaires pour travailler dans ce domaine et les technologies utilisées au quotidien par les développeurs et les experts en cybersécurité.
+    <div class="topbar">
 
-L'une de mes principales découvertes a été le développement web. J'ai appris les bases du HTML, qui permet de structurer le contenu d'une page web, ainsi que du CSS, utilisé pour mettre en forme les éléments et rendre les sites plus agréables à consulter. J'ai également découvert le JavaScript, un langage qui permet d'ajouter des fonctionnalités interactives aux sites web, comme des animations, des boutons dynamiques ou encore des formulaires intelligents. Grâce à ces technologies, j'ai pu mieux comprendre comment sont créés les sites internet que nous utilisons chaque jour.
+        <a class="button" href="hugo.html">Ma présentation</a>
 
-Au cours de mon stage, j'ai aussi eu l'occasion d'observer la manière dont les développeurs travaillent sur leurs projets. J'ai découvert l'importance de la logique, de l'organisation et de la résolution de problèmes dans la programmation. J'ai compris que la création d'un site ou d'une application demande de nombreuses étapes, allant de la conception jusqu'aux tests et à la correction des erreurs.</p>
+        <a href="index.html">
+            <img src="epitech.png" alt="Logo Epitech" class="logo">
+        </a>
 
-<p>Une autre partie très intéressante de mon stage a été la découverte de la cybersécurité. J'ai appris que de nombreuses menaces existent sur Internet et que les entreprises doivent constamment protéger leurs systèmes et leurs données. J'ai découvert différents types d'attaques informatiques, comme le phishing, les logiciels malveillants ou encore les tentatives d'intrusion dans les réseaux. J'ai également compris comment les professionnels de la cybersécurité analysent ces menaces et mettent en place des mesures de protection afin de sécuriser les informations des utilisateurs.
+    </div>
 
-J'ai pu observer comment les spécialistes de la cybersécurité étudient les failles de sécurité afin de les corriger avant qu'elles ne soient exploitées par des personnes malveillantes. J'ai appris l'importance des mots de passe sécurisés, de l'authentification, du chiffrement des données et des bonnes pratiques permettant de protéger sa vie privée sur Internet. Cette découverte m'a montré que la cybersécurité joue un rôle essentiel dans notre société de plus en plus connectée.
+    <div class="contenu">
 
-Ce stage m'a également permis de rencontrer des étudiants d'EPITECH. J'ai pu échanger avec eux sur leur formation, leurs projets et leurs ambitions professionnelles. Ils m'ont expliqué leur méthode d'apprentissage, basée sur la pratique et la réalisation de projets concrets. Ces discussions m'ont permis de mieux comprendre le parcours nécessaire pour devenir développeur, ingénieur ou expert en cybersécurité.
+        <header>
+            <h1>Ce que j'ai appris durant ce stage !</h1>
+        </header>
 
-Enfin, j'ai découvert le domaine de l'intelligence artificielle, qui est aujourd'hui au cœur de nombreuses innovations technologiques. J'ai appris comment certaines intelligences artificielles peuvent générer du texte, analyser des données, reconnaître des images ou encore assister les utilisateurs dans leurs tâches quotidiennes. J'ai été impressionné par les nombreuses applications de cette technologie dans des domaines variés comme la médecine, l'éducation, les transports, la recherche scientifique ou encore la programmation informatique.
+        <main>
 
-Grâce à ce stage, j'ai pu mieux comprendre l'importance de l'informatique dans notre quotidien et découvrir plusieurs domaines qui m'étaient encore peu connus. Cette expérience a renforcé mon intérêt pour les nouvelles technologies et m'a permis d'acquérir de nouvelles connaissances tout en découvrant l'environnement de travail de professionnels passionnés. Ce stage a été une expérience très enrichissante qui m'a donné une vision plus claire des possibilités offertes par les métiers du numérique et de l'informatique.</p>
-</p>
-</section>
-</main>
-<footer>
-<p>© 2026 - Hugo | Fait avec passion</p>
-</footer>
-<script src="script.js"></script>
-<style>
-body {
-    margin-left: 4cm;
-    margin-right: 4cm;
-    border: solid 1px white;
-    border-radius: 15px;
-    padding: 130px;
-}
- header h1 {
-    color: #f1f5f9;     
-    }
-    header h2 {
-    color: #f1f5f9;
-    }
+            <section>
 
-    body {
-    background-color: #1209b3;
-    }
+                <p>
+                    Durant mon stage à EPITECH, j'ai eu l'opportunité de découvrir de nombreux aspects du monde de
+                    l'informatique et des nouvelles technologies. Cette expérience m'a permis d'en apprendre davantage
+                    sur les différents métiers du numérique, les compétences nécessaires pour travailler dans ce
+                    domaine et les technologies utilisées au quotidien par les développeurs et les experts en
+                    cybersécurité.
+                </p>
 
-    body {
-    margin-left: 10cm;
-    margin-right: 10cm;
-    }
-    body {
-    font-family: Arial, sans-serif;
-}
-    p {
-  color: white;
-}
-p {
-    
-    font-size: 24px;
-    color: #fff;  /* Texte en blanc */
-}
+                <p>
+                    L'une de mes principales découvertes a été le développement web. J'ai appris les bases du HTML,
+                    qui permet de structurer le contenu d'une page web, ainsi que du CSS, utilisé pour mettre en forme
+                    les éléments et rendre les sites plus agréables à consulter. J'ai également découvert le
+                    JavaScript, un langage qui permet d'ajouter des fonctionnalités interactives aux sites web, comme
+                    des animations, des boutons dynamiques ou encore des formulaires intelligents.
+                </p>
 
-.topbar {
-position: fixed;
-top: 0;
-left: 0;
+                <p>
+                    Grâce à ces technologies, j'ai pu mieux comprendre comment sont créés les sites internet que nous
+                    utilisons chaque jour. Au cours de mon stage, j'ai aussi eu l'occasion d'observer la manière dont
+                    les développeurs travaillent sur leurs projets. J'ai découvert l'importance de la logique, de
+                    l'organisation et de la résolution de problèmes dans la programmation.
+                </p>
 
-width: 100%;
-height: 100px;
+                <p>
+                    Une autre partie très intéressante de mon stage a été la découverte de la cybersécurité. J'ai
+                    appris que de nombreuses menaces existent sur Internet et que les entreprises doivent constamment
+                    protéger leurs systèmes et leurs données.
+                </p>
 
-background: white;
-display: flex;
-justify-content: left;
-align-items: center;
+                <p>
+                    J'ai découvert différents types d'attaques informatiques, comme le phishing, les logiciels
+                    malveillants ou encore les tentatives d'intrusion dans les réseaux. J'ai également compris comment
+                    les professionnels de la cybersécurité analysent ces menaces et mettent en place des mesures de
+                    protection afin de sécuriser les informations des utilisateurs.
+                </p>
 
-z-index: 1000;
+                <p>
+                    J'ai pu observer comment les spécialistes de la cybersécurité étudient les failles de sécurité
+                    afin de les corriger avant qu'elles ne soient exploitées par des personnes malveillantes. J'ai
+                    appris l'importance des mots de passe sécurisés, de l'authentification, du chiffrement des données
+                    et des bonnes pratiques permettant de protéger sa vie privée sur Internet.
+                </p>
 
-}
+                <p>
+                    Ce stage m'a également permis de rencontrer des étudiants d'EPITECH. J'ai pu échanger avec eux sur
+                    leur formation, leurs projets et leurs ambitions professionnelles. Ils m'ont expliqué leur méthode
+                    d'apprentissage, basée sur la pratique et la réalisation de projets concrets.
+                </p>
 
-.contenu {
-margin-top: 80px;
-}
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.logo {
-    width: 390px; 
-}
-.button {
-    margin-top: -8px;
-    margin-left: 470px;
+                <p>
+                    Enfin, j'ai découvert le domaine de l'intelligence artificielle, qui est aujourd'hui au cœur de
+                    nombreuses innovations technologiques. J'ai appris comment certaines intelligences artificielles
+                    peuvent générer du texte, analyser des données, reconnaître des images ou encore assister les
+                    utilisateurs dans leurs tâches quotidiennes.
+                </p>
 
-}
-.boutton {
-    margin-top: -8px;
-    margin-left: 80px;
+                <p>
+                    Grâce à ce stage, j'ai pu mieux comprendre l'importance de l'informatique dans notre quotidien et
+                    découvrir plusieurs domaines qui m'étaient encore peu connus. Cette expérience a renforcé mon
+                    intérêt pour les nouvelles technologies et m'a permis d'acquérir de nouvelles connaissances tout en
+                    découvrant l'environnement de travail de professionnels passionnés.
+                </p>
 
-}
+                <p>
+                    Ce stage a été une expérience très enrichissante qui m'a donné une vision plus claire des
+                    possibilités offertes par les métiers du numérique et de l'informatique.
+                </p>
 
-</style>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>© 2026 - Hugo | Fait avec passion</p>
+        </footer>
+
+    </div>
+
 </body>
-<div class="topbar">
-    <a class="button" href="hugo.html">Ma présentation</a>
-    <a class="boutton"href="bombocla.html">Le Stage</a>
-     <a href="index.html">
-    <img src="epitech.png" alt="epitech" class="logo">
-</a>
-</html> 
+
+</html>

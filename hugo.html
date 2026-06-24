@@ -5,126 +5,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio - Hugo</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        header h1 {
+            color: #f1f5f9;
+        }
+
+        body {
+            margin-left: 10cm;
+            margin-right: 10cm;
+            border: solid 1px white;
+            border-radius: 15px;
+            padding: 130px;
+            background-color: #1209b3;
+            font-family: "Times New Roman", serif;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+        } 
+
+        .button {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 470px;
+        }
+
+        .boutton {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 80px;
+        }
+
+        section h2 {
+            color: rgb(101, 141, 249);
+            margin-left : auto;
+        }
+
+        img {
+            background-color: transparent;
+        }
+
+        .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: white;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .contenu {
+            margin-top: 80px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 390px; 
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        select {
+            width: 130px;
+            font-size: 18px;
+        }
+
+        .selection {
+            margin-left: 30%;    
+        }
+        .header {
+            color: rgb(192, 173, 255);
+        }
+        .selectione {
+            margin-left: 140%;    
+            margin-top: -50px;
+        }
+    </style>
 </head>
 <body>
 
-<header>
+<div class="topbar"></div>
+        </a>
+        <div class="selectione">
+            <label>Semaine 2 ➞ </label>
+            <select id="jour" name="jours">
+                <option selected value="">choix</option>
+                
+                <optgroup label="Journée">
+                    <option value="day6.html">Day 6</option>
+                    <option value="day7.html">Day 7</option>
+                    <option value="day8.html">Day 8</option>
+                    <option value="day9.html">Day 9</option>
+                </optgroup>
+
+            
+            </select>
+        </div>
+    </div>
+
+    <div class="topbar">
+        <a class="button" href="hugo.html">Ma présentation</a>
+             <a href="index.html">
+    <img src="epitech.png" alt="epitech" class="logo">
+        </a>
+        <div class="selection">
+            <label>Semaine 1 ➞ </label>
+            <select id="jours" name="jours">
+                <option selected value="">choix</option>
+                
+                <optgroup label="Journée">
+                    <option value="day1.html">Day 1</option>
+                    <option value="day2.html">Day 2</option>
+                    <option value="day3.html">Day 3</option>
+                    <option value="day4.html">Day 4</option>
+                    <option value="day5.html">Day 5</option>
+                </optgroup>
+
+                <optgroup label="Conclusion">
+                    <option value="bombocla.html">Mes 15 jours</option>
+                </optgroup>
+
+
+            </select>
+        </div>
+    </div>
+
+    <div class="contenu">
+        <header>
     <h1> Bienvenue sur ma présentation !</h1>
-    
+
 </header>
 
 <main>
     <header>
-    <h2>Ma présentation</h2>
+    <h2 class="header">Ma présentation</h2>
     </header>
     <section>
     <h2>À propos de moi :</h2>
     </section>
-    <p>Je m'apelle Hugo Vincent, j'ai 16 ans et je suis a l'institut de Genech pour mes etudes en première. Je passe en première avec les spés NSI ,SES ,AMC</p>
-    
+    <p>Je m'appelle Hugo Vincent, j'ai 16 ans et je suis actuellement élève à l'Institut de Genech. Je passe en classe de première avec les spécialités NSI (Numérique et Sciences Informatiques), SES (Sciences Économiques et Sociales) et AMC (Anglais Monde Contemporain).</p>
+    <p>Je m'intéresse particulièrement à l'informatique et aux nouvelles technologies, ce qui m'a motivé à choisir la spécialité NSI et à participer à ce stage afin de découvrir davantage le monde du numérique.</p>
     <section>
     <h2>Mes Passions :</h2>
-    <p>jsuis passionée par les jeux vidéos et dormir, je jou tout le temps a gta et plus précisement a rush pvp.</p>
+        <p>Pendant mon temps libre, je suis passionné par les jeux vidéo. J'aime particulièrement jouer à GTA V, notamment sur des serveurs de type Rush PVP, où l'action est rapide et où il faut faire preuve de réactivité et d'esprit d'équipe.
+
+J'apprécie également les moments de détente et de repos, qui me permettent de me ressourcer et de rester concentré dans mes activités scolaires et personnelles</p>
     </section>
+
     <section>
     <h2>Mes Qualitées :</h2>
-    <ul><p>Je suis gentil, a lécoute, j'essaye de faire de mon mieu a chaque fois que je réalise quelque chose et je ne suis pas chiant.</p></ul>
+        <ul><p>Je pense être une personne :
+
+    Gentille et respectueuse envers les autres ;
+    À l'écoute, capable de prendre en compte les conseils et les remarques ;
+    Motivée, car j'essaie toujours de faire de mon mieux lorsque je réalise une tâche ou un projet ;
+    Sérieuse lorsque je m'engage dans une activité ;
+    Facile à vivre et agréable à côtoyer au quotidien.</p></ul>
+
     <ul><p>Je suis à l'écoute</p></ul>
+
     <ul><p>J'essaye de faire de mon mieu a chaque fois que je réalise quelque chose</p></ul>
+
 <ul><p>Je ne suis pas chiant</p>
+    <h2>Mon objectif</h2>
+    <P>Grâce à mes études et aux expériences comme ce stage, je souhaite développer mes compétences dans le domaine de l'informatique et découvrir les différents métiers liés au numérique afin de mieux préparer mon orientation future.</P>
+
     </section>
 </main>
 <footer>
     <p>© 2026 - Hugo | Fait avec passion</p>
 </footer>
-<script src="script.js"></script>
-<style>
-body {
-    margin-left: 4cm;
-    margin-right: 4cm;
-    border: solid 1px white;
-    border-radius: 15px;
-    padding: 130px;
-}
-header h2 {
-    color: white; 
-}
- header h1 {
-    color: white;
-    }
-section h2 {
-    color: #0080ff;
-    }
+    </div>
 
-body {
-    background-color: #1209b3;
-    }
-
-body {
-    margin-left: 10cm;
-    margin-right: 10cm;
-    }
-p {
-  color: white;
-}
-
-
-p {
-    
-    font-size: 20px;
-    color: #fff;  /* Texte en blanc */
-}
-
-.topbar {
-position: fixed;
-top: 0;
-left: 0;
-
-width: 100%;
-height: 100px;
-
-background: white;
-display: flex;
-justify-content: left;
-align-items: center;
-
-z-index: 1000;
-
-}
-
-.contenu {
-margin-top: 80px; /* même valeur que la hauteur de la topbar */
-}
-
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.logo {
-    width: 390px; 
-}
-.button {
-    margin-top: -8px;
-    margin-left: 470px;
-
-}
-.boutton {
-    margin-top: -8px;
-    margin-left: 80px;
-}
-img {
-    background-color: transparent;
-    }
-
-</style>
 </body>
-<div class="topbar">
-    <a class="button"href="hugo.html">Ma présentation</a>
-    <a class="boutton"href="bombocla.html">Le Stage</a>
-    <a href="index.html">
-    <img src="epitech.png" alt="epitech" class="logo">
-</a>
-    
-</div>
-</html> 
+</html>
