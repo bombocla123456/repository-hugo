@@ -1,0 +1,164 @@
+            
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Hugo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        header h1 {
+            color: #f1f5f9;
+        }
+
+        body {
+            margin-left: 10cm;
+            margin-right: 10cm;
+            border: solid 1px white;
+            border-radius: 15px;
+            padding: 130px;
+            background-color: #1209b3;
+            font-family: "Times New Roman", serif;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+        } 
+
+        .button {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 470px;
+        }
+
+        .boutton {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 50px;
+        }
+
+        section h2 {
+            color: white;
+        }
+
+        img {
+            background-color: transparent;
+        }
+
+        .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: white;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .contenu {
+            margin-top: 80px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 390px; 
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        select {
+            width: 130px;
+            font-size: 18px;
+        }
+
+        .selection {
+            margin-left: 15%;    
+        }
+    </style>
+</head>
+<body>
+
+    <div class="topbar">
+        <a class="button" href="hugo.html">Ma présentation ↗</a>
+             <a href="index.html">
+                <a class="boutton" href="bombocla.html">Mes 15 jours de stage ↗</a>
+                 <a href="index.html"></a>
+             <a href="index.html"><a class="boutton" href="remerciement.html">Remerciements ↗</a>
+             <a href="index.html">
+    <img src="epitech.png" alt="epitech" class="logo">
+        </a>
+        <div class="selection">
+            <label>Semaine 1 ➞ </label>
+            <select id="jours" name="jours">
+                <option selected value="">choix</option>
+                
+                <optgroup label="Journée">
+                    <option value="day1.html">Day 1</option>
+                    <option value="day2.html">Day 2</option>
+                    <option value="day3.html">Day 3</option>
+                    <option value="day4.html">Day 4</option>
+                    <option value="day5.html">Day 5</option>
+                </optgroup>
+
+            </select> |
+              <label>Semaine 2 ➞ </label>
+            <select id="jour" name="jours">
+                <option selected value="">choix</option>
+                
+                <optgroup label="Journée">
+                    <option value="day6.html">Day 6</option>
+                    <option value="day7.html">Day 7</option>
+                    <option value="day8.html">Day 8</option>
+                    <option value="day9.html">Day 9</option>
+                </optgroup>
+
+            
+            </select>
+        </div>
+    </div>
+
+    <div class="contenu">
+        <header>
+            <h1>Merci Epitech !</h1>
+        </header>
+
+        <main>
+            <section>
+                <p>
+
+Je tiens à remercier chaleureusement Epitech pour m'avoir accueilli pendant ces deux semaines de stage. Cette expérience a été très enrichissante et m'a permis de découvrir de nombreux aspects de l'informatique, de la programmation et de l'intelligence artificielle.
+</p>
+
+<P>Au cours de ce stage, j'ai eu l'occasion de participer à différentes activités, conférences et ateliers qui m'ont permis d'acquérir de nouvelles connaissances et de développer mes compétences. J'ai particulièrement apprécié la diversité des projets proposés ainsi que l'ambiance de travail, à la fois sérieuse et conviviale.
+    </P>
+
+<p>Je remercie également tous les intervenants, encadrants et membres de l'équipe pédagogique pour leur disponibilité, leurs explications et leur bienveillance tout au long du stage. Leur accompagnement m'a permis de mieux comprendre les métiers du numérique et les études dans ce domaine.
+
+Cette expérience a renforcé mon intérêt pour l'informatique et m'a permis de découvrir un environnement d'apprentissage stimulant. Je garderai un très bon souvenir de ces deux semaines passées à Epitech.
+
+Encore merci à toute l'équipe d'Epitech pour son accueil et pour cette opportunité de découverte et d'apprentissage.
+</p>
+</section>
+        </main>
+
+        <footer>
+            <p>© 2026 - Hugo | Fait avec passion</p>
+        </footer>
+    </div>
+
+</body>
+</html>

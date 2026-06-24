@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Portfolio - Hugo</title>
-
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 
     <style>
+        header h1 {
+            color: #f1f5f9;
+        }
+
         body {
-            max-width: 1200px;
-            margin: 0 auto;
+            margin-left: 10cm;
+            margin-right: 10cm;
             border: solid 1px white;
             border-radius: 15px;
             padding: 130px;
             background-color: #1209b3;
-            font-family: Arial, sans-serif;
-        }
-
-        header h1,
-        header h2 {
-            color: #f1f5f9;
+            font-family: "Times New Roman", serif;
         }
 
         p {
             color: white;
-            font-size: 24px;
+            font-size: 20px;
+        } 
+
+        .button {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 470px;
+        }
+
+        .boutton {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 50px;
+        }
+
+        section h2 {
+            color: white;
+        }
+
+        img {
+            background-color: transparent;
         }
 
         .topbar {
@@ -51,41 +72,71 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 390px;
+            width: 390px; 
         }
 
-        .button {
-            margin-top: -8px;
-            margin-left: 470px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
+        label {
+            font-size: 18px;
+        }
+
+        select {
+            width: 130px;
+            font-size: 18px;
+        }
+
+        .selection {
+            margin-left: 15%;    
         }
     </style>
 </head>
-
 <body>
 
     <div class="topbar">
-
-        <a class="button" href="hugo.html">Ma présentation</a>
-
-        <a href="index.html">
-            <img src="epitech.png" alt="Logo Epitech" class="logo">
+        <a class="button" href="hugo.html">Ma présentation ↗</a>
+             <a href="index.html">
+                <a class="boutton" href="bombocla.html">Mes 15 jours de stage ↗</a>
+                 <a href="index.html"></a>
+             <a href="index.html"><a class="boutton" href="remerciement.html">Remerciements ↗</a>
+             <a href="index.html">
+    <img src="epitech.png" alt="epitech" class="logo">
         </a>
+        <div class="selection">
+            <label>Semaine 1 ➞ </label>
+            <select id="jours" name="jours">
+                <option selected value="">choix</option>
+                
+                <optgroup label="Journée">
+                    <option value="day1.html">Day 1</option>
+                    <option value="day2.html">Day 2</option>
+                    <option value="day3.html">Day 3</option>
+                    <option value="day4.html">Day 4</option>
+                    <option value="day5.html">Day 5</option>
+                </optgroup>
 
+            </select> |
+              <label>Semaine 2 ➞ </label>
+            <select id="jour" name="jours">
+                <option selected value="">choix</option>
+                
+                <optgroup label="Journée">
+                    <option value="day6.html">Day 6</option>
+                    <option value="day7.html">Day 7</option>
+                    <option value="day8.html">Day 8</option>
+                    <option value="day9.html">Day 9</option>
+                </optgroup>
+
+            
+            </select>
+        </div>
     </div>
 
     <div class="contenu">
-
         <header>
-            <h1>Ce que j'ai appris durant ce stage !</h1>
+            <h1>Bienvenue dans l'accueil !</h1>
         </header>
 
         <main>
-
             <section>
-
                 <p>
                     Durant mon stage à EPITECH, j'ai eu l'opportunité de découvrir de nombreux aspects du monde de
                     l'informatique et des nouvelles technologies. Cette expérience m'a permis d'en apprendre davantage
@@ -153,17 +204,13 @@
                     Ce stage a été une expérience très enrichissante qui m'a donné une vision plus claire des
                     possibilités offertes par les métiers du numérique et de l'informatique.
                 </p>
-
-            </section>
-
-        </main>
+                </section>
+                </main>
 
         <footer>
             <p>© 2026 - Hugo | Fait avec passion</p>
         </footer>
-
     </div>
 
 </body>
-
 </html>

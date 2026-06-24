@@ -1,15 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mon Portfolio - Hugo</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Hugo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        header h1 {
+            color: #f1f5f9;
+        }
+
+        body {
+            margin-left: 10cm;
+            margin-right: 10cm;
+            border: solid 1px white;
+            border-radius: 15px;
+            padding: 130px;
+            background-color: #1209b3;
+            font-family: "Times New Roman", serif;
+        }
+
+        p {
+            color: white;
+            font-size: 20px;
+        } 
+
+        .button {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 470px;
+        }
+
+        .boutton {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-top: -8px;
+            margin-left: 50px;
+        }
+
+        section h2 {
+            color: white;
+        }
+
+        img {
+            background-color: transparent;
+        }
+
+        .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: white;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .contenu {
+            margin-top: 80px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 390px; 
+        }
+
+        label {
+            font-size: 18px;
+        }
+
+        select {
+            width: 130px;
+            font-size: 18px;
+        }
+
+        .selection {
+            margin-left: 15%;    
+        }
+    </style>
 </head>
 <body>
 
-<div class="topbar">
-        <a class="button" href="hugo.html">Ma présentation</a>
+    <div class="topbar">
+        <a class="button" href="hugo.html">Ma présentation ↗</a>
+             <a href="index.html">
+                <a class="boutton" href="bombocla.html">Mes 15 jours de stage ↗</a>
+                 <a href="index.html"></a>
+             <a href="index.html"><a class="boutton" href="remerciement.html">Remerciements ↗</a>
              <a href="index.html">
     <img src="epitech.png" alt="epitech" class="logo">
         </a>
@@ -26,128 +113,53 @@
                     <option value="day5.html">Day 5</option>
                 </optgroup>
 
-                <optgroup label="Conclusion">
-                    <option value="bombocla.html">Mes 15 jours</option>
+            </select> |
+              <label>Semaine 2 ➞ </label>
+            <select id="jour" name="jours">
+                <option selected value="">choix</option>
+                
+                <optgroup label="Journée">
+                    <option value="day6.html">Day 6</option>
+                    <option value="day7.html">Day 7</option>
+                    <option value="day8.html">Day 8</option>
+                    <option value="day9.html">Day 9</option>
                 </optgroup>
+
+            
             </select>
         </div>
     </div>
 
-<header>
-<h1> Mon jour n°2 !</h1>
+    <div class="contenu">
+        <header>
+            <h1> Mon jour n°2 !</h1>
 </header>
 
 <main>
 <section>
 <p>DAY2</p>
 
-<p><b>Day 2</b>
+<P>
 
-Pour cette deuxième journée de stage chez Epitech, je suis arrivé à 10h00. La matinée a commencé par la poursuite de la création de mon portfolio personnel. J'ai continué à travailler sur mon site web en améliorant sa présentation et en ajoutant du contenu. Cette activité m'a permis de mieux comprendre l'utilisation du HTML et du CSS et de progresser dans la conception de pages web.
+Pour cette deuxième journée de stage chez Epitech, je suis arrivé à 10h00. La matinée a commencé par la poursuite de la création de mon portfolio personnel. J'ai continué à travailler sur mon site web en améliorant sa présentation et en ajoutant du contenu. Cette activité m'a permis de mieux comprendre l'utilisation du HTML et du CSS et de progresser dans la conception de pages web.</P>
 
-Ensuite, nous avons assisté à une conférence sur la cybersécurité. Cette présentation nous a permis de découvrir les principaux risques présents sur Internet ainsi que les moyens utilisés pour protéger les données et les systèmes informatiques. J'ai notamment appris l'importance des mots de passe sécurisés, de la protection des informations personnelles et des bonnes pratiques à adopter pour naviguer en toute sécurité sur le web.
+<P>Ensuite, nous avons assisté à une conférence sur la cybersécurité. Cette présentation nous a permis de découvrir les principaux risques présents sur Internet ainsi que les moyens utilisés pour protéger les données et les systèmes informatiques. J'ai notamment appris l'importance des mots de passe sécurisés, de la protection des informations personnelles et des bonnes pratiques à adopter pour naviguer en toute sécurité sur le web.
 
-De 12h30 à 13h30, nous avons fait une pause déjeuner.
+</P>
+  <P>  De 12h30 à 13h30, nous avons fait une pause déjeuner.</P>
 
-L'après-midi, de 13h30 à 17h00, nous avons participé à différentes activités liées à l'investigation numérique et à l'observation. Nous avons joué à GeoGuessr, un jeu qui consiste à deviner un lieu dans le monde à partir d'images de rues et de paysages. Cette activité m'a permis de développer mon sens de l'observation et ma capacité à analyser des indices visuels. Nous avons également participé à un jeu de traqueur dans lequel il fallait retrouver la provenance d'images ou d'informations en utilisant différents indices disponibles sur Internet. Cette activité m'a fait découvrir certaines méthodes utilisées dans le domaine de l'OSINT (Open Source Intelligence), qui consiste à collecter et analyser des informations accessibles publiquement.
+<P>L'après-midi, de 13h30 à 17h00, nous avons participé à différentes activités liées à l'investigation numérique et à l'observation. Nous avons joué à GeoGuessr, un jeu qui consiste à deviner un lieu dans le monde à partir d'images de rues et de paysages. Cette activité m'a permis de développer mon sens de l'observation et ma capacité à analyser des indices visuels. Nous avons également participé à un jeu de traqueur dans lequel il fallait retrouver la provenance d'images ou d'informations en utilisant différents indices disponibles sur Internet. Cette activité m'a fait découvrir certaines méthodes utilisées dans le domaine de l'OSINT (Open Source Intelligence), qui consiste à collecter et analyser des informations accessibles publiquement.
 
 Cette deuxième journée a été très intéressante, car elle m'a permis d'approfondir mes connaissances en développement web tout en découvrant de nouveaux aspects de la cybersécurité et de l'analyse d'informations.
 
 </p>
-
-
-</section>
 </main>
+    </section>
 
-<footer>
-<p>© 2026 - Hugo | Fait avec passion</p>
-</footer>
-<script src="script.js"></script>
+        <footer>
+            <p>© 2026 - Hugo | Fait avec passion</p>
+        </footer>
+    </div>
 
-<style>
-body {
-    margin-left: 4cm;
-    margin-right: 4cm;
-    border: solid 1px white;
-    border-radius: 15px;
-    padding: 130px;
-}
- header h1 {
-    color: #f1f5f9;     
-    }
-    header h2 {
-    color: #f1f5f9;
-    }
-
-    body {
-    background-color: #1209b3;
-    }
-
-    body {
-    margin-left: 10cm;
-    margin-right: 10cm;
-    }
-    body {
-    font-family: Arial, sans-serif;
-}
-    p {
-  color: white;
-}
-p {
-    
-    font-size: 24px;
-    color: #fff;  /* Texte en blanc */
-}
-
-.topbar {
-position: fixed;
-top: 0;
-left: 0;
-
-width: 100%;
-height: 100px;
-
-background: white;
-display: flex;
-justify-content: left;
-align-items: center;
-
-z-index: 1000;
-
-}
-
-.contenu {
-margin-top: 80px;
-}
-.logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.logo {
-    width: 390px; 
-}
-.button {
-    text-decoration: none;
-            color: black;
-            font-weight: bold;
-            margin-top: -8px;
-    margin-top: -8px;
-    margin-left: 470px;
-
-}
-.boutton {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-top: -8px;
-    margin-top: -8px;
-    margin-left: 80px;
-
-}
-.selection {
-            margin-left: 30%;    
-        }
-</style>
 </body>
 </html>

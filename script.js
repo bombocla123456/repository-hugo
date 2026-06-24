@@ -13,7 +13,7 @@ const selectione_jours = document.getElementById("jour");
 selectione_jours.addEventListener("change", function() {
     const url_2=this.value ;
     if (url_2 !== "") {
-        window.location.href=url ;
+        window.location.href=url_2 ;
     }
 } );
 
